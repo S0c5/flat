@@ -25,6 +25,7 @@ declare namespace FlatTypes {
     interface UnflattenOptions {
         delimiter?: string | undefined;
         object?: boolean | undefined;
+        safe?: boolean | undefined;
         overwrite?: boolean | undefined;
         transformKey?: ((key: string) => string) | undefined;
     }
